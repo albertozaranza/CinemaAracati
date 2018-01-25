@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "173694500328",
+    "firebase_url": "https://cinema-aracati.firebaseio.com",
+    "project_id": "cinema-aracati",
+    "storage_bucket": "cinema-aracati.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173694500328:android:0c661bd8ca7ccfee",
+        "android_client_info": {
+          "package_name": "com.albertozaranza.cinemaaracati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173694500328-kfi87trk2irlrhq9m0qs13qsk3kv8j46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.albertozaranza.cinemaaracati",
+            "certificate_hash": "25ad14cfc1c5e400fd66f0baa2d2605a978648dd"
+          }
+        },
+        {
+          "client_id": "173694500328-9sm6fdbpd4uvafgtvj0nj3l8q8kuehc7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxeDj-TV7nWzBqY7mUWOiG6jBVLgSTrKA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "173694500328-9sm6fdbpd4uvafgtvj0nj3l8q8kuehc7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

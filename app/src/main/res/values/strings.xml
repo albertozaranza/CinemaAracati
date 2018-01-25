@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Cinema Aracati</string>
+    <string name="admob_banner_id">ca-app-pub-5952310052518279/1108945074</string>
+    <string name="admob_intersticial_id">ca-app-pub-5952310052518279/9450469521</string>
+</resources>

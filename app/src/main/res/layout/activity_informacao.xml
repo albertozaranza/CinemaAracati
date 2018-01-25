@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.albertozaranza.cinemaaracati.activity.InformacaoActivity">
+
+
+    <include
+        layout="@layout/toolbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="200dp"
+                android:layout_height="300dp"
+                android:background="@color/cardview_dark_background"
+                android:layout_margin="16dp" />
+
+            <TextView
+                android:id="@+id/textViewNome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_alignTop="@+id/imageView"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+            <TextView
+                android:id="@+id/textViewTipo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewNome"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+            <TextView
+                android:id="@+id/textViewSala"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewTipo"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+            <TextView
+                android:id="@+id/textViewHorario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewSala"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:text="Horários"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+            <TextView
+                android:id="@+id/textViewHorarioEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewHorario"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"/>
+
+            <TextView
+                android:id="@+id/textViewGenero"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewHorarioEdit"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:text="Gênero"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+            <TextView
+                android:id="@+id/textViewGeneroEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewGenero"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"/>
+
+            <TextView
+                android:id="@+id/textViewCensura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewGeneroEdit"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:text="Censura"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+            <TextView
+                android:id="@+id/textViewCensuraEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewCensura"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"/>
+
+            <TextView
+                android:id="@+id/textViewDuracao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewCensuraEdit"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:text="Duração"
+                android:textColor="@android:color/black"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Medium"/>
+
+            <TextView
+                android:id="@+id/textViewDuracaoEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewDuracao"
+                android:layout_toEndOf="@+id/imageView"
+                android:layout_toRightOf="@+id/imageView"
+                android:layout_marginBottom="4dp"
+                android:textAppearance="@android:style/TextAppearance.Holo.Small"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_alignLeft="@+id/imageView"
+                    android:layout_alignStart="@+id/imageView"
+                    android:layout_below="@+id/imageView"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginRight="16dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sinopse:"
+                        android:layout_marginBottom="8dp"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Medium"
+                        android:textColor="@android:color/black"/>
+
+                    <TextView
+                        android:id="@+id/textViewSinopse"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="@android:style/TextAppearance.Holo.Small" />
+
+                    <com.google.android.gms.ads.AdView
+                        android:id="@+id/admobBanner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        ads:adSize="BANNER"
+                        ads:adUnitId="@string/admob_banner_id"
+                        android:layout_marginTop="8dp"/>
+
+                </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
